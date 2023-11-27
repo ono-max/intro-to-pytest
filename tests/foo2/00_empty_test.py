@@ -6,6 +6,7 @@ def test_empty():
     It looks for them in modules whose name starts with "test_" or ends with "_test"
     (by default)
     """
+    raise
     pass
 
 

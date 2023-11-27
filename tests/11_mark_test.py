@@ -11,7 +11,7 @@ def test_fake_query():
 
 @pytest.mark.slow
 def test_fake_stats_function():
-    assert True
+    assert False
 
 
 @pytest.mark.db
