@@ -18,8 +18,8 @@ jobs:
       - run: . venv/bin/activate
       - run: pip install -r requirements.txt
       - run: pytest --junitxml=./test.xml
-      store_test_results:
-        path: ./
+      - store_test_results:
+          path: ./
 
 workflows:
   say-hello-workflow:
