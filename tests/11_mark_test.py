@@ -6,7 +6,7 @@ def test_fake_query():
     """
     pytest.mark can be used to "tag" tests for later reference
     """
-    assert True
+    assert False
 
 
 @pytest.mark.slow
