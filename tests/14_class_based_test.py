@@ -13,4 +13,4 @@ class TestSimpleClass(object):
     def test_two_checking_method(self):
         print("\nRunning TestSimpleClass.test_twos_method")
         assert self.x != 2
-        assert self.y == 2
+        assert self.y == 1
